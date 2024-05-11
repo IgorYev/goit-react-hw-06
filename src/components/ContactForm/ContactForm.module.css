@@ -1,0 +1,21 @@
+.contactForm {
+  width: 200px;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  border: 1px solid #000;
+  border-radius: 15px;
+  background-color: beige;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  color: red;
+}
